@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contender{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "header header"
+                         "contendStar contendStar"
+                         "contendNewApp contendNewApp"
+                        "contendDrive contendDrive"
+                        "contendTar contendTar"
+                         "footer footer"
+
+
+}
+
+.contender .header{
+    display: flex;
+    grid-area: header;
+    height: 121px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4.6%;
+
+}
+
+.contender .header .logo{
+    display: flex;
+    width: 123px;
+    height: 31px;
+    padding-left: 8%;
+
+}
+.contender .header .nab {
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #2b2b2b;
+    align-items: center;
+    width: 443px;
+    height: 46px;
+    justify-content: space-around;
+}
+
+.link {
+    color: #2b2b2b;
+
+}
+
+.travel{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.contendStar{
+    background-image: url(img/taxi.jpg);
+    height: 715px;
+    background-position-y: 92%;
+    background-position-x: -17px;
+    background-repeat: no-repeat;
+    background-size: 101.5% 287%;
+    grid-area: contendStar;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.contendStar .main{
+    background: #f7b617;
+    color: white;
+    height: 414px;
+    width: 513px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 3%;
+}
+
+.contendStar .buttonStar{
+    display: flex;
+    width: 140px;
+    height: 44px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white ;
+    border: solid white;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.contendStar .buttonDriver{
+    display: flex;
+    width: 274px;
+    height: 42px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white ;
+    border: solid white;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.contendStar .main .title{
+    font-size: 36px;
+    display: flex;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+}
+
+h2 {
+    width:130px;  border-bottom: 1px solid white;
+}
+
+
+.contendStar .main .titleOption{
+    display: flex;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contendDrive{
+    background-image: url(img/conduce.jpg);
+    color: white;
+    grid-area: contendDrive;
+    height: 446px;
+    background-position-y: 56%;
+    background-position-x: -21px;
+    background-repeat: no-repeat;
+    background-size: 102% 195%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+}
+
+.contendDrive .buttonDrive{
+    display: flex;
+    background: #f7b617;
+    color: white;
+    width: 250px;
+    height: 43px;
+    font-weight: bold;
+    font-size: 18px;
+    border: solid #f7b617;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.contendDrive .driveText{
+    display: flex;
+    width: 455px;
+    height: 450px;
+    background: rgba(0, 0, 0, .5);
+    justify-content:  flex-start;
+    /*font-size: 28px;*/
+    align-items: flex-start;
+    padding-top: 7.4%;
+
+}
+
+.contendDrive .driveText .conduce{
+    font-size: 28px;
+}
+
+.contendDrive .driveText .titleDriver2{
+    font-size: 20px;
+}
+
+.contendNewApp{
+    background: #f7b617;
+    height: 535px;
+    color: white;
+    grid-area:contendNewApp ;
+    display: flex;
+    align-items: center;
+}
+
+.contendNewApp .newAp{
+    width: 544px;
+    font-size: 23px;
+    /*padding-right: 12.5%;*/
+
+}
+
+.contendNewApp .cellphone{
+    height:368px;
+    display:flex;
+}
+
+
+.contendNewApp .mainNewApp{
+    display:flex ;
+    border: white solid 1px;
+    width: 1120px;
+    height: 450px;
+    align-items: center;
+    justify-content:space-around;
+
+
+}
+
+.contendTar{
+    background: #f7b617;
+    color: white;
+    height: 571px;
+    grid-area:contendTar ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+
+}
+
+.contendTar .tracerRut{
+    display: flex;
+    width: 171px;
+    height: 39px;
+    justify-content: center;
+    background: white;
+    color: black;
+    border: solid #f7b617;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 28%;
+}
+
+.contendTar .Tariffs{
+    display: flex;
+    justify-items: center;
+
+}
+
+.lin{
+    display: flex;
+}
+
+.tarif2{
+    font-size: 20px;
+}
+.tarif{
+    font-size: 30px;
+}
+.contendTar .direction{
+    display: flex;
+    width: 311px;
+    height: 40px;
+    background: #f7b617;
+    color: white;
+    font-size: 13px;
+    border: solid white 1px;
+    border-radius: 8px;
+}
+::placeholder{
+    color: white;
+}
+.contendTar .map{
+    display: flex;
+    border: white solid 1px;
+    padding: 0.8%;
+
+}
+.footer{
+    background: #2B2B2B ;
+    color: white;
+    grid-area: footer;
+    display: flex;
+    height: 625px;
+    align-items: center;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1210px;
+
+}
+
+.lis{
+    padding-top: 10%;
+    padding-bottom: 13%;
+}
+
+.contendFooter{
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 6%;
+}
+
+
+.global-container{
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+form{
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.card-title{ font-weight:300; }
+
+.btn{
+    font-size: 14px;
+    margin-top:20px;
+}
+
+
+.login-form{
+    width:330px;
+    margin:20px;
+}
+
+.sign-up{
+    text-align:center;
+    padding:20px 0 0;
+}
+
+.alert{
+    margin-bottom:-30px;
+    font-size: 13px;
+    margin-top:20px;
+}
+
+.visible{
+    display: block;
+    position: fixed;
+}
+
+.invisible{
+    display: none;
+}
