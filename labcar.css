@@ -262,8 +262,9 @@ h2 {
     font-size: 13px;
     border: solid white 1px;
     border-radius: 8px;
+    margin-left: 4%;
 }
-::placeholder{
+.contendTar .tariffs ::placeholder{
     color: white;
 }
 .contendTar .map{
@@ -303,49 +304,104 @@ h2 {
 }
 
 
-.global-container{
-    height:100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-}
-
-form{
-    padding-top: 10px;
-    font-size: 14px;
-    margin-top: 30px;
-}
-
-.card-title{ font-weight:300; }
-
-.btn{
-    font-size: 14px;
-    margin-top:20px;
-}
 
 
-.login-form{
-    width:330px;
-    margin:20px;
-}
 
-.sign-up{
-    text-align:center;
-    padding:20px 0 0;
-}
-
-.alert{
-    margin-bottom:-30px;
-    font-size: 13px;
-    margin-top:20px;
-}
+/*MODALES*/
 
 .visible{
     display: block;
     position: fixed;
 }
 
-.invisible{
+.invisible {
     display: none;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-align: center;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #08AC9D;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius:5px;
+    width: 598px;
+    height: 479px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-login{
+    background-color:#F5F5F5;
+    border-radius: 5px;
+    height: 236px;
+    width:270px;
+    margin-left: 28%;
+
+}
+
+.iconLog{
+
+}
+
+.buttonLog{
+    height: 35px;
+    width: 85px;
+    background-color: #F0AD4E ;
+    color: white;
+    border-radius: 5px;
+    border: #EEA236 solid 1px;
+
+}
+
+.ForgotPass {
+    font-size: 14px;
+}
+
+.link2{
+    color: #a52a2a;
+}
+
+#id-username ::placeholder{
+    color: #888888;
+}
+
+.input-login{
+    width: 192px;
+    height: 32px;
+    border: #888888 solid 1px;
+    border-radius: 5px;
+}
+
+.iconLog{
+    width: 42px;
+    height: 32px;
 }

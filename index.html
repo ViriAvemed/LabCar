@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Labcar</title>
+        <title>Labcar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="labcar.css"/>
     <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway|Roboto+Condensed|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+
+
 
 </head>
 
@@ -51,32 +56,27 @@
             </ul>
         </main>
 
-        <div id="enter" class="global-container invisible">
-            <div class="card login-form">
-                <div class="card-body">
-                    <div class="card-text">
-                        <!--
-                        <div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
-                        <form>
-                            <!-- to error: add class "has-danger" -->
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Password</label>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
 
-                                <input type="password" class="form-control form-control-sm" id="exampleInputPassword1">
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-block">Sign in</button>
-
-                            <div class="sign-up">
-                                Forgot password? <a href="#">Click Here</a>
-                            </div>
-                        </form>
-                    </div>
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+               <div> <img  src="img/usericon.PNG" alt="user icon"></div>
+                <hr><br>
+                <div class="modal-login">
+                    <br>
+                    <i class="material-icons">
+                        person
+                    </i> <input class="input-login" id="id-username" type="text" placeholder="Username"><br><br>
+                    <i class="material-icons">
+                        local_mall
+                    </i><input class="input-login" type="text" placeholder="Password"><br><br>
+                    <button class="buttonLog" type="submit" >LOGING</button><br><br>
+                    <p class="ForgotPass">Forgot password? <a class="link2" href="#" style="text-decoration:none" >Click Here</a></p>
                 </div>
             </div>
+
         </div>
 
     </section>
@@ -118,8 +118,12 @@
             <ul style = "list-style-type: none">
                 <li ><h1 class="tarif">Tarifas </h1></li><br>
                 <li ><p class="tarif2">Consulta las tarifas LabCar aquí </p></li><br>
-                <li class="lin"><img class="iconTar" src="img/inicio.PNG" alt="origen"><input class="direction" type="text" name="origin" placeholder="Ingrese su punto de partida"></li><br><br>
-                <li class="lin"><img class="iconTar" src="img/destino.PNG" alt="destino"><input class="direction" type="text" name="destiny" placeholder="Ingrese su destino"></li><br>
+                <li class="lin"><i class="material-icons">
+                    radio_button_checked
+                </i><input class="direction" type="text" name="origin" placeholder="Ingrese su punto de partida"></li><br><br>
+                <li class="lin"><i class="material-icons">
+                    send
+                </i><input class="direction" type="text" name="destiny" placeholder="Ingrese su destino"></li><br>
                 <li ><button class="tracerRut">¡TRAZAR RUTA!</button></li>
             </ul>
         </div>
