@@ -21,17 +21,10 @@ span.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target === modal) {
         modal.style.display = "none";
     }
 };
-
-
-
-
-
-
-
 
 //Get the modal Register
 const modal2 = document.getElementById("myModal2");
@@ -54,7 +47,7 @@ span2.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal2) {
+    if (event.target === modal2) {
         modal2.style.display = "none";
     }
 };
