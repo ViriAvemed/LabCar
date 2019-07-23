@@ -15,7 +15,6 @@
                         "contendTar contendTar"
                          "footer footer"
 
-
 }
 
 .contender .header{
@@ -273,8 +272,11 @@ h2 {
     display: flex;
     border: white solid 1px;
     padding: 0.8%;
+    width: 35%;
+    height: 74%;
 
 }
+
 .footer{
     background: #2B2B2B ;
     color: white;
@@ -284,25 +286,27 @@ h2 {
     align-items: center;
 }
 
-.lista{
+.list{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width: 1210px;
+    width: 100%;
 
 }
 
-.lis{
-    padding-top: 10%;
-    padding-bottom: 13%;
+.list .lis{
+    padding-top: 25%;
 }
+
+
 
 .contendFooter{
     display: flex;
     align-items: center;
-    padding-left: 4%;
-    padding-top: 4%;
-    padding-bottom: 6%;
+    grid-area: footer;
+    width: 100%;
+    padding-right: 4%;
+    padding-left: 8%;
 }
 
 
