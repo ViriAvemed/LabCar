@@ -266,6 +266,8 @@ h2 {
 }
 .contendTar .tariffs ::placeholder{
     color: white;
+    padding-left: 2%;
+    font-size: 14px;
 }
 .contendTar .map{
     display: flex;
@@ -404,4 +406,113 @@ h2 {
 .iconLog{
     width: 42px;
     height: 32px;
+}
+
+
+/*SEGUNDO MODAL*/
+/* Modal Content */
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-align: center;
+}
+
+.modal2-content {
+    background-color: #A9A9A9;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #A9A9A9;
+    border-radius:5px;
+    width: 449px;
+    height: 522px;
+}
+
+/* The Close Button */
+.close2 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal2-login{
+    background-color:#F5F5F5;
+    border-radius: 5px;
+    height: 236px;
+    width:270px;
+    margin-left: 28%;
+
+}
+
+.input-Register{
+    width: 398px;
+    height: 34px;
+    border-radius: 5px;
+    border: #888888 solid 1px;
+    margin: 1%;
+
+}
+
+.input-Register1{
+    width: 194px;
+    height: 34px;
+    border-radius: 5px;
+    border: #888888 solid 1px;
+    margin: 1%;
+
+}
+
+.input-Register2{
+    width: 398px;
+    height: 46px;
+    border-radius: 5px;
+    border: black solid 1px;
+    background-color: black;
+    color: white;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    font-size: 18px;
+
+}
+
+.input-Register3 {
+    width: 398px;
+    height: 46px;
+    border-radius: 5px;
+    border: #DDDDDD solid 1px;
+    margin: 1%;
+    background-color: #DDDDDD;
+    color: #333333;
+    font-size: 18px;
+}
+
+.input-Register4 {
+    width: 398px;
+    height: 46px;
+    border-radius: 5px;
+    border: #5BC0DE solid 1px;
+    margin: 1%;
+    background-color: #5BC0DE;
+    color: white;
+    font-size: 18px;
+}
+
+.modal2-content ::placeholder{
+    padding-left: 2%;
+    font-size: 14px;
 }
