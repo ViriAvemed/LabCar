@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6789ba86-254e-40b7-af11-db69b3285a37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/desktop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/v-movil.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labcar.css" beforeDir="false" afterPath="$PROJECT_DIR$/labcar.css" afterDir="false" />
@@ -28,12 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="900" />
-    <option name="height" value="744" />
   </component>
   <component name="ProjectId" id="1Pilx0tHNwgZrsCKABV3AkSwKDc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,7 +74,7 @@
       <workItem from="1563858492460" duration="3915000" />
       <workItem from="1566365046482" duration="1721000" />
       <workItem from="1566367358626" duration="6131000" />
-      <workItem from="1566418559262" duration="600000" />
+      <workItem from="1566418559262" duration="8387000" />
     </task>
     <servers />
   </component>
