@@ -6,14 +6,14 @@
 
 .contender{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 12fr);
     grid-template-rows: repeat(6, auto);
-    grid-template-areas: "header header"
-                         "contendStar contendStar"
-                         "contendNewApp contendNewApp"
-                        "contendDrive contendDrive"
-                        "contendTar contendTar"
-                         "footer footer"
+    grid-template-areas: "header "
+                         "contendStar "
+                         "contendNewApp "
+                        "contendDrive "
+                        "contendTar "
+                         "footer "
 
 }
 
@@ -58,16 +58,23 @@
 
 .contendStar{
     background-image: url(img/taxi.jpg);
-    height: 715px;
+    height: 100%;
+    width: 100%;
     background-position-y: 92%;
     background-position-x: -17px;
     background-repeat: no-repeat;
     background-size: 101.5% 287%;
-    grid-area: contendStar;
+
     display: flex;
     align-items: center;
     justify-content: flex-end;
 
+}
+.contenedors{
+    height: 706px;
+    width: 1366px;
+    display: flex;
+    grid-area: contendStar;
 }
 
 .contendStar .main{
@@ -620,4 +627,106 @@ h2 {
     background-color: #5BC0DE;
     color: white;
     font-size: 18px;
+}
+/*FIRST MOBILE*/
+
+.contendStarMobile{
+    width: 80.73%;
+    height: 44.73%;
+    background: #f7b617;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 3%;
+}
+
+.buttonDownload{
+
+display: flex;
+width: 31.37%;
+height: 44px;
+color: black;
+font-weight: bold;
+font-size: 18px;
+background-color: white ;
+border: solid white;
+border-radius: 5px;
+justify-content: center;
+}
+@media screen and (max-width: 768px) {
+
+    #navBar {
+        display: none;
+    }
+
+    #HomeDesktop {
+        display: none !important;
+    }
+
+    #homeFirstMobile {
+        display: block !important;
+    }
+
+
+}
+
+@media screen and (max-width: 397px) {
+    .contendStar {
+        background-image: url(img/taxi.jpg);
+        height: 542px;
+        width: 545px;
+        background-position-y: 92%;
+        background-position-x: -51px;
+        background-repeat: no-repeat;
+        background-size: 83.5% 155%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contendStar {
+        background-image: url(img/taxi.jpg);
+        height: 100%;
+        width: 100%;
+        background-position-y: 92%;
+        background-position-x: -51px;
+        background-repeat: no-repeat;
+        background-size: 65.5% 155%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contendStar {
+        background-image: url(img/taxi.jpg);
+        height: 100%;
+        width: 100%;
+        background-position-y: 92%;
+        background-position-x: -17px;
+        background-repeat: no-repeat;
+        background-size: 57.5% 155%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .contendStar {
+        background-image: url(img/taxi.jpg);
+        height: 100%;
+        width: 100%;
+        background-position-y: 92%;
+        background-position-x: -17px;
+        background-repeat: no-repeat;
+        background-size: 35.5% 138%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
 }

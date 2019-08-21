@@ -25,7 +25,7 @@
             </figure>
         </div>
 
-        <div class="navFather">
+        <div id="navBar" class="navFather">
             <nav class="nab">
                 <a class="link" href="#" style="text-decoration:none" >Viaja</a>
                 <a class="link"href="#" style="text-decoration:none">Conduce</a>
@@ -36,8 +36,11 @@
     </header>
 
     <!--  INICIO  -->
-    <section class="contendStar">
-        <main class="main">
+
+<!--    Contenido para version Desktop-->
+    <section class="contenedors">
+    <div  class="contendStar">
+        <main id="HomeDesktop" class="main">
             <ul style = "list-style-type: none">
                 <li><h1 class="title">Disfruta del viaje </h1></li>
                 <li><h1 class="title"> Eres dueño de tu tiempo </h1></li><br><br>
@@ -55,6 +58,17 @@
                 <li><button id="register" class="buttonDriver">Conviértete en un conductor</button></li>
             </ul>
         </main>
+        <div  id="homeFirstMobile" class="contendStarMobile" style="display: none" >
+            <ul style = "list-style-type: none">
+                <li><h1 class="title">Comienza a viajar </h1></li>
+                <li> <figure class="travel"> con<img src="img/logo-blanco.png" alt="Logo Labcar" style="height: 22px;"></figure><br>
+                <li><button id="" class="buttonDownload">Descarga el app</button></li><br>
+            </ul>
+        </div>
+    </section>
+
+
+
 
         <!-- The Modal -->
         <div id="myModal" class="modal">
@@ -105,7 +119,7 @@
         </div>
             </div>
 
-    </section>
+    </div>
 
     <!--    La Nueva App-->
     <section class="contendNewApp">
